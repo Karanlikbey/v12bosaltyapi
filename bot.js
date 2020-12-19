@@ -113,3 +113,12 @@ client.on("message", async msg => {
     msg.reply('as');
   }
 });
+
+//sesli kanala sokma
+
+client.on("ready", () => {
+  client.channels.cache.get("SesliKanalİD").join();
+})
+
+
+
