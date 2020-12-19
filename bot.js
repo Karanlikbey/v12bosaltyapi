@@ -116,9 +116,9 @@ client.on("message", async msg => {
 
 //sesli kanala sokma
 
-client.on("ready", () => {
-  client.channels.cache.get("SesliKanalİD").join();
-})
+ client.on("ready", () => {
+ client.channels.cache.get("SesliKanalİD").join();
+ })
 
 
 
